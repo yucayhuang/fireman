@@ -1,0 +1,22 @@
+gleCallToCountIssue" value="Suggestion" />
+  <Property key="refactoring.codeissues.text/x-csharp.ICSharpCode.NRefactory.CSharp.Refactoring.ReplaceWithSingleCallToCountIssue.isEnabled" value="True" />
+  <Property key="refactoring.codeissues.text/x-csharp.ICSharpCode.NRefactory.CSharp.Refactoring.ReplaceWithSingleCallToFirstIssue" value="Suggestion" />
+  <Property key="refactoring.codeissues.text/x-csharp.ICSharpCode.NRefactory.CSharp.Refactoring.ReplaceWithSingleCallToFirstIssue.isEnabled" value="True" />
+  <Property key="refactoring.codeissues.text/x-csharp.ICSharpCode.NRefactory.CSharp.Refactoring.ReplaceWithSingleCallToFirstOrDefaultIssue" value="Suggestion" />
+  <Property key="refactoring.codeissues.text/x-csharp.ICSharpCode.NRefactory.CSharp.Refactoring.ReplaceWithSingleCallToFirstOrDefaultIssue.isEnabled" value="True" />
+  <Property key="refactoring.codeissues.text/x-csharp.ICSharpCode.NRefactory.CSharp.Refactoring.ReplaceWithSingleCallToLastIssue" value="Suggestion" />
+  <Property key="refactoring.codeissues.text/x-csharp.ICSharpCode.NRefactory.CSharp.Refactoring.ReplaceWithSingleCallToLastIssue.isEnabled" value="True" />
+  <Property key="refactoring.codeissues.text/x-csharp.ICSharpCode.NRefactory.CSharp.Refactoring.ReplaceWithSingleCallToLastOrDefaultIssue" value="Suggestion" />
+  <Property key="refactoring.codeissues.text/x-csharp.ICSharpCode.NRefactory.CSharp.Refactoring.ReplaceWithSingleCallToLastOrDefaultIssue.isEnabled" value="True" />
+  <Property key="refactoring.codeissues.text/x-csharp.ICSharpCode.NRefactory.CSharp.Refactoring.ReplaceWithSingleCallToLongCountIssue" value="Suggestion" />
+  <Property key="refactoring.codeissues.text/x-csharp.ICSharpCode.NRefactory.CSharp.Refactoring.ReplaceWithSingleCallToLongCountIssue.isEnabled" value="True" />
+  <Property key="refactoring.codeissues.text/x-csharp.ICSharpCode.NRefactory.CSharp.Refactoring.ReplaceWithSingleCallToSingleIssue" value="Suggestion" />
+  <Property key="refactoring.codeissues.text/x-csharp.ICSharpCode.NRefactory.CSharp.Refactoring.ReplaceWithSingleCallToSingleIssue.isEnabled" value="True" />
+  <Property key="refactoring.codeissues.text/x-csharp.ICSharpCode.NRefactory.CSharp.Refactoring.ReplaceWithSingleCallToSingleOrDefaultIssue" value="Suggestion" />
+  <Property key="refactoring.codeissues.text/x-csharp.ICSharpCode.NRefactory.CSharp.Refactoring.ReplaceWithSingleCallToSingleOrDefaultIssue.isEnabled" value="True" />
+  <Property key="refactoring.codeissues.text/x-csharp.ICSharpCode.NRefactory.CSharp.Refactoring.ReplaceWithStringIsNullOrEmptyIssue" value="Suggestion" />
+  <Property key="refactoring.codeissues.text/x-csharp.ICSharpCode.NRefactory.CSharp.Refactoring.ReplaceWithStringIsNullOrEmptyIssue.isEnabled" value="True" />
+  <Property key="refactoring.codeissues.text/x-csharp.ICSharpCode.NRefactory.CSharp.Refactoring.SimplifyConditionalTernaryExpressionIssue" value="Suggestion" />
+  <Property key="refactoring.codeissues.text/x-csharp.ICSharpCode.NRefactory.CSharp.Refactoring.SimplifyConditionalTernaryExpressionIssue.isEnabled" value="True" />
+  <Property key="refactoring.codeissues.text/x-csharp.ICSharpCode.NRefactory.CSharp.Refactoring.StringEndsWithIsCultureSpecificIssue" value="Warning" />
+  <Property key="refactoring.codeissues.text/x-csharp.ICSharpCode.NRefactory.CSharp.Refactorin

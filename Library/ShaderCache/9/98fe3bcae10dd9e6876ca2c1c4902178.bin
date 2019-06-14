@@ -1,0 +1,39 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>搜狗输入法</title>
+<meta http-equiv="Content-Type" content="text/html;charset=gb2312" />
+<script type="text/javascript">
+window.onload = function(){
+	var img = document.createElement("IMG");
+	var uid = getCookie("YYID");
+	var hids= document.getElementsByTagName("hid");
+//新词解读
+	var pingid=hids[0].id;
+	var pingid2="";
+	if(hids.length>1)
+	pingid2=hids[1].id;
+
+
+	var ppid=pingid;
+        for(i=1;i<hids.length;i++)
+        ppid+="@"+hids[i].id;
+
+//	var pingid="";
+//	img.src = "http://ping.pinyin.sogou.com/getxinci.gif?id="+pingid+"&type=show&uid="+uid;
+	//	  downloading();
+	//    downloadfail();
+//	var MyMar=setInterval(window.external.load_finish(),300000);
+	//var MyMar=setTimeout(function(){window.external.load_finish();img.src = "http://ping.pinyin.sogou.com/getxinci.gif?id="+pingid+"@"+pingid2+"&type=show&uid="+uid;},1000);
+
+	var MyMar=setTimeout(function(){window.external.load_finish();img.src = "http://ping.pinyin.sogou.com/getxinci.gif?id="+ppid+"&type=show&uid="+uid;},1000);
+/*
+	if(uid.length==32)
+            Sogou_FID.set(uid);
+*/
+//	var MyMar=setInterval(alert("aaa"),3000);
+//	window.external.load_finish();
+}
+function pingback(id,desc){
+	var img = document.createElement("IMG");
+	var uid = getCookie("YYID");
+	var hids= document.getElementsByTagNam

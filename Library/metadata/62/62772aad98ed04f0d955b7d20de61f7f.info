@@ -1,0 +1,15 @@
+，0为缩略图，1为列表模式-->
+    </Option>
+    <Option name="safebox_browse_mode">
+      <Int>0</Int><!--保险箱文件浏览模式，0为缩略图，1为列表模式-->
+    </Option>
+    <Option name="show_taskadjust_tip">
+      <Bool>TRUE</Bool><!--是否显示智能调控任务Tip，TRUE代表显示，FALSE代表不显示-->
+    </Option>
+    <Option name="membership_info">
+      <Int>0</Int><!--用户身份信息-->
+    </Option>
+    <Option name="show_bdworld2013_100G_activity_tip">
+      <Bool>TRUE</Bool><!--是否显示百度世界2013活动-->
+    </Option>
+    <Option name="show_mem

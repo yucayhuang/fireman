@@ -1,0 +1,119 @@
+/*
+Copyright (c) 2008, Adobe Systems Incorporated
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without 
+modification, are permitted provided that the following conditions are
+met:
+
+* Redistributions of source code must retain the above copyright notice, 
+this list of conditions and the following disclaimer.
+
+* Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the 
+documentation and/or other materials provided with the distribution.
+
+* Neither the name of Adobe Systems Incorporated nor the names of its 
+contributors may be used to endorse or promote products derived from 
+this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS
+IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
+THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR 
+CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+*/
+
+package  {
+	
+	import com.adobe.utils.IntUtil;
+	import flash.utils.ByteArray;	
+	/**
+	 * The MD5 Message-Digest Algorithm
+	 *
+	 * Implementation based on algorithm description at 
+	 * http://www.faqs.org/rfcs/rfc1321.html
+	 */
+	public class MD5 {
+		
+		public static var digest:ByteArray;
+		/**
+		 * Performs the MD5 hash algorithm on a string.
+		 *
+		 * @param s The string to hash
+		 * @return A string containing the hash value of s
+		 * @langversion ActionScript 3.0
+		 * @playerversion Flash 8.5
+		 * @tiptext
+		 */
+		
+		public static function hash(s:String) :String{
+			//Convert to byteArray and send through hashBinary function
+			// so as to only have complex code in one location
+			var ba:ByteArray = new ByteArray();
+			ba.writeUTFBytes(s);	
+			return hashBinary(ba);
+		}
+		
+		public static function hashBytes(s:ByteArray) :String{	
+			return hashBinary(s);
+		}
+		
+		/**
+		 * Performs the MD5 hash algorithm on a ByteArray.
+		 *
+		 * @param s The string to hash
+		 * @return A string containing the hash value of s
+		 * @langversion ActionScript 3.0
+		 * @playerversion Flash 8.5
+		 * @tiptext
+		 */	 
+		public static function hashBinary( s:ByteArray ):String {
+			// initialize the md buffers
+			var a:int = 1732584193;
+			var b:int = -271733879;
+			var c:int = -1732584194;
+			var d:int = 271733878;
+			
+			// variables to store previous values
+			var aa:int;
+			var bb:int;
+			var cc:int;
+			var dd:int;
+			
+			// create the blocks from the string and
+			// save the length as a local var to reduce
+			// lookup in the loop below
+			var x:Array = createBlocks( s );
+			var len:int = x.length;
+			
+			// loop over all of the blocks
+			for ( var i:int = 0; i < len; i += 16) {
+				// save previous values
+				aa = a;
+				bb = b;
+				cc = c;
+				dd = d;				
+				
+				// Round 1
+				a = ff( a, b, c, d, x[int(i+ 0)],  7, -680876936 ); 	// 1
+				d = ff( d, a, b, c, x[int(i+ 1)], 12, -389564586 );	// 2
+				c = ff( c, d, a, b, x[int(i+ 2)], 17, 606105819 ); 	// 3
+				b = ff( b, c, d, a, x[int(i+ 3)], 22, -1044525330 );	// 4
+				a = ff( a, b, c, d, x[int(i+ 4)],  7, -176418897 ); 	// 5
+				d = ff( d, a, b, c, x[int(i+ 5)], 12, 1200080426 ); 	// 6
+				c = ff( c, d, a, b, x[int(i+ 6)], 17, -1473231341 );	// 7
+				b = ff( b, c, d, a, x[int(i+ 7)], 22, -45705983 ); 	// 8
+				a = ff( a, b, c, d, x[int(i+ 8)],  7, 1770035416 ); 	// 9
+				d = ff( d, a, b, c, x[int(i+ 9)], 12, -1958414417 );	// 10
+				c = ff( c, d, a, b, x[int(i+10)], 17, -42063 ); 		// 11
+				b = ff( b, c, d, a, x[int(i+11)], 22, -1990404162 );	// 12
+				a = ff( a, b, c, d, x[int(i+12)],  7, 1804603682 ); 	// 13
+				d = ff( d, a, b, c, x[int(i+13)], 12, -40341101 ); 	// 14
+				c = ff

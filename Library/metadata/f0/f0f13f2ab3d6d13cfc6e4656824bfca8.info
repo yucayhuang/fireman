@@ -1,0 +1,7 @@
+3A%2F%2Fopen.work.weixin.qq.com%2Fwwopen%2Fmpnews%3Fmixuin%3DBxtDDwAABwCfdPbhAAAUAA%26mfid%3DWW0315-fR9y2gAABwCN3ao6xJOXZghb7MW31%26idx%3D0%26sn%3Daf29329fec05a9debbfd905158b0fd21%26auth%3D1&response_type=code&scope=snsapi_base#wechat_redirect errorText: errorCode:-3
+
+[0115/110804:INFO:client.cpp(153)]  [Client::OnLoadingStateChange] isLoading:0 canGoBack:0 canGoForward:0
+
+[0115/110805:INFO:client.cpp(153)]  [Client::OnLoadingStateChange] isLoading:1 canGoBack:0 canGoForward:0
+
+[0115/110805:INFO:client.cpp(220)] [Client::OnBeforeBrowse] is_redirect:0 url:https://open.work.weixin.qq.com/wwopen/mpnews?mixuin=BxtDDw

@@ -1,0 +1,87 @@
+state%3DTAPD_QY_WECHAT transition_type:1073741824
+
+[0115/144419:INFO:client.cpp(220)] [Client::OnBeforeBrowse] is_redirect:0 url:https://www.tapd.cn/my_worktable
+
+[0115/144419:INFO:client.cpp(245)] [Client::OnBeforeResourceLoad] https://www.tapd.cn/my_worktable
+
+[0115/144419:INFO:client.cpp(264)] [Client::OnResourceResponse] https://www.tapd.cn/tapdh5/assets/043f30ff9c3b39ff356d0b596779a249.ttf
+
+[0115/144419:INFO:client.cpp(264)] [Client::OnResourceResponse] https://www.tapd.cn/my_worktable
+
+[0115/144419:INFO:approval_extension.cpp(23)] ApprovalRenderHandler::OnContextCreated
+
+[0115/144419:INFO:client.cpp(167)] [Client::OnLoadStart] https://www.tapd.cn/my_worktable transition_type:1073741824
+
+[0115/144419:INFO:client.cpp(245)] [Client::OnBeforeResourceLoad] https://www.tapd.cn/dist/dist_version_map.js?v=140521
+
+[0115/144419:INFO:client.cpp(245)] [Client::OnBeforeResourceLoad] https://tdl.tapd.cn/tfl/dist/dist_version_map.js?v=140521
+
+[0115/144419:INFO:client.cpp(245)] [Client::OnBeforeResourceLoad] https://tdl.tapd.cn/tfl-hebe/dist/dist_version_map.js?v=140521
+
+[0115/144419:INFO:client.cpp(245)] [Client::OnBeforeResourceLoad] https://www.tapd.cn/js_dist/raven.min+170511165752.js
+
+[0115/144419:INFO:client.cpp(245)] [Client::OnBeforeResourceLoad] https://tdl.tapd.cn/tfl-hebe/css/tfl-style.css?v=140521
+
+[0115/144419:INFO:client.cpp(245)] [Client::OnBeforeResourceLoad] https://www.tapd.cn/css_dist/tui-tapd-hebe+171228164674.css
+
+[0115/144419:INFO:client.cpp(245)] [Client::OnBeforeResourceLoad] https://www.tapd.cn/css_dist/project-guide-common+170413164511.css
+
+[0115/144419:INFO:client.cpp(245)] [Client::OnBeforeResourceLoad] https://www.tapd.cn/css_dist/project-member-managment+170608170149.css
+
+[0115/144419:INFO:client.cpp(245)] [Client::OnBeforeResourceLoad] https://www.tapd.cn/css_dist/user_guide+151217171279.css
+
+[0115/144419:INFO:client.cpp(245)] [Client::OnBeforeResourceLoad] https://www.tapd.cn/js_dist/jquery-mix+151202175527.js
+
+[0115/144419:INFO:client.cpp(245)] [Client::OnBeforeResourceLoad] https://tdl.tapd.cn/tfl-hebe/js/compress/core%7Cbutton%7Cdialog%7Cdropdown%7Ctips%7CformValidate%7Clocaldata%7Ccluetip%7Cdkselect%7Cconfirm%7Cdatepicker%7Cdatetimepicker%7Cdaterangepicker%7Cfield%7Cfilter%7Ceditable%7Cremove%7Cguide%7Ctemplate%7Cpinyinuserchooser%7Cpinyinuserchooser-avatar%7Cavatarlist%7Cprogress-bar.js?v=140521&compress=1
+
+[0115/144419:INFO:client.cpp(245)] [Client::OnBeforeResourceLoad] https://www.tapd.cn/js/compress/lib_73a2b833dd3855295df14c0114f93a1c140521_min.js
+
+[0115/144419:INFO:client.cpp(245)] [Client::OnBeforeResourceLoad] https://www.tapd.cn/js_dist/cloud/letter_notify+151112164133.js
+
+[0115/144419:INFO:client.cpp(245)] [Client::OnBeforeResourceLoad] https://tdl.tapd.cn/tfl/css/tfl-progress.css?v=140521
+
+[0115/144419:INFO:client.cpp(245)] [Client::OnBeforeResourceLoad] https://www.tapd.cn/css_dist/tcloud/tcloud-create-by-template+160818164435.css
+
+[0115/144419:INFO:client.cpp(245)] [Client::OnBeforeResourceLoad] https://www.tapd.cn/css_dist/myworktable_hebe+180112154356.css
+
+[0115/144419:INFO:client.cpp(245)] [Client::OnBeforeResourceLoad] https://www.tapd.cn/css_dist/subject-view-lego+151112164120.css
+
+[0115/144419:INFO:client.cpp(245)] [Client::OnBeforeResourceLoad] https://www.tapd.cn/css_dist/new_attachment_lego+170608170165.css
+
+[0115/144419:INFO:client.cpp(264)] [Client::OnResourceResponse] https://www.tapd.cn/css_dist/project-member-managment+170608170149.css
+
+[0115/144419:INFO:client.cpp(264)] [Client::OnResourceResponse] https://www.tapd.cn/css_dist/project-guide-common+170413164511.css
+
+[0115/144419:INFO:client.cpp(264)] [Client::OnResourceResponse] https://tdl.tapd.cn/tfl/css/tfl-progress.css?v=140521
+
+[0115/144419:INFO:client.cpp(264)] [Client::OnResourceResponse] https://www.tapd.cn/css_dist/user_guide+151217171279.css
+
+[0115/144419:INFO:client.cpp(264)] [Client::OnResourceResponse] https://www.tapd.cn/css_dist/tcloud/tcloud-create-by-template+160818164435.css
+
+[0115/144419:INFO:client.cpp(264)] [Client::OnResourceResponse] https://tdl.tapd.cn/tfl/dist/dist_version_map.js?v=140521
+
+[0115/144419:INFO:client.cpp(264)] [Client::OnResourceResponse] https://www.tapd.cn/css_dist/myworktable_hebe+180112154356.css
+
+[0115/144419:INFO:client.cpp(264)] [Client::OnResourceResponse] https://www.tapd.cn/css_dist/subject-view-lego+151112164120.css
+
+[0115/144419:INFO:client.cpp(264)] [Client::OnResourceResponse] https://tdl.tapd.cn/tfl-hebe/dist/dist_version_map.js?v=140521
+
+[0115/144419:INFO:client.cpp(264)] [Client::OnResourceResponse] https://www.tapd.cn/dist/dist_version_map.js?v=140521
+
+[0115/144420:INFO:client.cpp(264)] [Client::OnResourceResponse] https://www.tapd.cn/css_dist/new_attachment_lego+170608170165.css
+
+[0115/144420:INFO:client.cpp(264)] [Client::OnResourceResponse] https://www.tapd.cn/js_dist/raven.min+170511165752.js
+
+[0115/144420:INFO:client.cpp(264)] [Client::OnResourceResponse] https://www.tapd.cn/js_dist/jquery-mix+151202175527.js
+
+[0115/144420:INFO:client.cpp(264)] [Client::OnResourceResponse] https://www.tapd.cn/js/compress/lib_73a2b833dd3855295df14c0114f93a1c140521_min.js
+
+[0115/144420:INFO:client.cpp(264)] [Client::OnResourceResponse] https://www.tapd.cn/js_dist/cloud/letter_notify+151112164133.js
+
+[0115/144420:INFO:client.cpp(264)] [Client::OnResourceResponse] https://tdl.tapd.cn/tfl-hebe/js/compress/core%7Cbutton%7Cdialog%7Cdropdown%7Ctips%7CformValidate%7Clocaldata%7Ccluetip%7Cdkselect%7Cconfirm%7Cdatepicker%7Cdatetimepicker%7Cdaterangepicker%7Cfield%7Cfilter%7Ceditable%7Cremove%7Cguide%7Ctemplate%7Cpinyinuserchooser%7Cpinyinuserchooser-avatar%7Cavatarlist%7Cprogress-bar.js?v=140521&compress=1
+
+[0115/144420:INFO:client.cpp(264)] [Client::OnResourceResponse] https://www.tapd.cn/css_dist/tui-tapd-hebe+171228164674.css
+
+[0115/144420:INFO:client.cpp(264)] [Client::OnResourceResponse] https://tdl.tapd.cn/tfl-hebe/css/tfl-style.css?v=140521
+
+[0115/144420:INFO:client.cpp(245)] [Client::OnBeforeResourceLoad

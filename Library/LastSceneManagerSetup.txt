@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Resources/FlappyAgents.unity
+  isLoaded: 0
+  isActive: 0

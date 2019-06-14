@@ -1,0 +1,47 @@
+e] https://p.qpic.cn/pic_wework/1538990356/7e78d4719a5657336b20ba0bcbfa725a0040e996ad8a1e6c/640?tp=webp
+
+[0115/110941:INFO:client.cpp(264)] [Client::OnResourceResponse] https://p.qpic.cn/pic_wework/1538990356/8d8b2782bbff40e613b9b23ef5314412c9a883c20520b9ba/640?tp=webp
+
+[0115/111035:INFO:client.cpp(245)] [Client::OnBeforeResourceLoad] https://p.qpic.cn/pic_wework/1538990356/0b0da10456855546e988e468625b6757db110a7cdc0b3435/640?tp=webp
+
+[0115/111035:INFO:client.cpp(264)] [Client::OnResourceResponse] https://p.qpic.cn/pic_wework/1538990356/0b0da10456855546e988e468625b6757db110a7cdc0b3435/640?tp=webp
+
+[0115/115554:INFO:client.cpp(119)] [Client::OnBeforeClose]
+
+[0115/144410:INFO:client.cpp(153)]  [Client::OnLoadingStateChange] isLoading:1 canGoBack:0 canGoForward:0
+
+[0115/144410:INFO:client.cpp(220)] [Client::OnBeforeBrowse] is_redirect:0 url:https://www.tapd.cn/tapdm/worktable/index?corpid=wwffe80174324dd6a1&agentid=1000012
+
+[0115/144410:INFO:client.cpp(245)] [Client::OnBeforeResourceLoad] https://www.tapd.cn/tapdm/worktable/index?corpid=wwffe80174324dd6a1&agentid=1000012
+
+[0115/144410:INFO:client.cpp(264)] [Client::OnResourceResponse] https://www.tapd.cn/tapdm/worktable/index?corpid=wwffe80174324dd6a1&agentid=1000012
+
+[0115/144410:INFO:approval_extension.cpp(23)] ApprovalRenderHandler::OnContextCreated
+
+[0115/144410:INFO:client.cpp(167)] [Client::OnLoadStart] https://www.tapd.cn/tapdm/worktable/index?corpid=wwffe80174324dd6a1&agentid=1000012 transition_type:1
+
+[0115/144410:INFO:client.cpp(245)] [Client::OnBeforeResourceLoad] https://www.tapd.cn/tapdh5/vendors/raven.min.js?v=6b3f5af6dcf67349bf46
+
+[0115/144410:INFO:client.cpp(245)] [Client::OnBeforeResourceLoad] https://www.tapd.cn/tapdh5/vendors/zepto.min.js?v=6b3f5af6dcf67349bf46
+
+[0115/144410:INFO:client.cpp(245)] [Client::OnBeforeResourceLoad] https://www.tapd.cn/tapdh5/vendors/iscroll-probe.js?v=6b3f5af6dcf67349bf46
+
+[0115/144410:INFO:client.cpp(245)] [Client::OnBeforeResourceLoad] https://www.tapd.cn/tapdh5/vendors/common.js?v=6b3f5af6dcf67349bf46
+
+[0115/144410:INFO:client.cpp(245)] [Client::OnBeforeResourceLoad] https://www.tapd.cn/tapdh5/vendors/aes.js?v=6b3f5af6dcf67349bf46
+
+[0115/144410:INFO:client.cpp(245)] [Client::OnBeforeResourceLoad] https://www.tapd.cn/tapdh5/vendors/mermaid.min.js?v=6b3f5af6dcf67349bf46
+
+[0115/144410:INFO:client.cpp(245)] [Client::OnBeforeResourceLoad] https://res.wx.qq.com/open/js/jweixin-1.2.0.js
+
+[0115/144410:INFO:client.cpp(245)] [Client::OnBeforeResourceLoad] https://www.tapd.cn/tapdh5/assets/app.8c7866945c740ebcfbda.js
+
+[0115/144410:INFO:client.cpp(236)] [Client::OnResourceRedirect] old:https://res.wx.qq.com/open/js/jweixin-1.2.0.js new:https://res.wx.qq.com/wwopen/js/jsapi/jweixin-1.0.0.js
+
+[0115/144410:INFO:client.cpp(245)] [Client::OnBeforeResourceLoad] https://res.wx.qq.com/wwopen/js/jsapi/jweixin-1.0.0.js
+
+[0115/144410:INFO:client.cpp(264)] [Client::OnResourceResponse] https://res.wx.qq.com/wwopen/js/jsapi/jweixin-1.0.0.js
+
+[0115/144410:INFO:client.cpp(264)] [Client::OnResourceResponse] https://www.tapd.cn/tapdh5/vendors/raven.min.js?v=6b3f5af6dcf67349bf46
+
+[0115/144410:INFO:client.cpp(264)] [Client::OnResourceResponse] https://www.tapd.cn/tapdh5/vendor

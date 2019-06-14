@@ -1,0 +1,24 @@
+package   src
+{
+	import flash.display.Sprite;
+	import flash.events.Event;
+	import flash.events.IOErrorEvent;
+	import flash.events.ProgressEvent;
+	import flash.events.SecurityErrorEvent;
+	import flash.net.Socket;
+	import flash.utils.ByteArray;
+	
+	public class testSocket extends Sprite
+	{
+		public function testSocket()
+		{
+			connect();
+		}
+		
+		
+		private var _socket:Socket = new Socket();
+		private function connect():void{
+			if(!_socket)
+				_socket = new Socket();
+			_socket.addEventListener(Event.CONNECT, onConnectHandler);
+			_socket.addEventListener(IOErrorEvent.IO_ERROR, onIoErrorHand
